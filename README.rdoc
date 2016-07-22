@@ -6,22 +6,18 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
-
-* Configuration
+  ruby 2.2.1
 
 * Database creation
+  Rake db:create
 
 * Database initialization
+  Rake db:migrate
 
-* How to run the test suite
+* Server Start
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+  -rails server -e development
+  -open in browser with URL lvh.me:3000 (lvh.me represent the localhost)
 
 
 Please feel free to use a different markup language if you do not plan to run
